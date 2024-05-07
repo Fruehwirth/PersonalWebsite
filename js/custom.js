@@ -237,37 +237,37 @@
 
         $('#home-link').on('click', function () {
             $('#wrapper').mCustomScrollbar('scrollTo', '#home', {
-                scrollInertia: 1500
+                scrollInertia: 1000
             });
         });
 
         $('#about-link').on('click', function () {
             $('#wrapper').mCustomScrollbar('scrollTo', '#about', {
-                scrollInertia: 1500
+                scrollInertia: 1000
             });
         });
 
         $('#skills-link').on('click', function () {
             $('#wrapper').mCustomScrollbar('scrollTo', '#skills', {
-                scrollInertia: 1500
+                scrollInertia: 1000
             });
         });
 
         $('#resume-link').on('click', function () {
             $('#wrapper').mCustomScrollbar('scrollTo', '#resume', {
-                scrollInertia: 1500
+                scrollInertia: 1000
             });
         });
 
         $('#passions-link').on('click', function () {
             $('#wrapper').mCustomScrollbar('scrollTo', '#passions', {
-                scrollInertia: 1500
+                scrollInertia: 1000
             });
         });
 
         $('#contact-link').on('click', function () {
             $('#wrapper').mCustomScrollbar('scrollTo', '#contact', {
-                scrollInertia: 1500
+                scrollInertia: 1000
             });
         });
 
