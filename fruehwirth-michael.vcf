@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:4.0
+N:Frühwirth;Michael;;;
+ADR;TYPE=home;LABEL="Verdistraße 17\n4600 Schleißheim\nAustria":;;Verdistraße 17;Schleißheim;;4600;Austria
+TEL;TYPE=home,voice;VALUE=uri:tel:+4367761199099
+EMAIL:michael@fruehwirth.online
+URL:https://fruehwirth.online
+PHOTO;VALUE=URL;TYPE=JPEG:http://fruehwirth.online/assets/img/profilepicture.jpg
+BDAY:2001-05-07
+SOURCE:http://fruehwirth.online/fruehwirth-michael.vcf
+END:VCARD

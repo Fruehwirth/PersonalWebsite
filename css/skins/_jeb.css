@@ -1,0 +1,121 @@
+@keyframes RGB_TEXT_BG {
+    from {background-color: rgb(0 123 255);}
+    15% {background-color: rgb(0 0 255);}
+    21% {background-color: rgb(147, 0, 255);}
+    32% {background-color: rgb(255, 0, 255);}
+    43% {background-color: rgb(255, 0, 0);}
+    54% {background-color: rgb(255 165 0);}
+    65% {background-color: rgb(255 255 0);}
+    76% {background-color: rgb(123, 255, 0);}
+    87% {background-color: rgb(0, 211, 0);}
+    98% {background-color: rgb(0, 211, 148);}
+    to {background-color: rgb(0, 123, 255);}
+}
+
+@keyframes RGB_TEXT_C {
+    from {color: rgb(0 123 255);}
+    15% {color: rgb(0 0 255);}
+    21% {color: rgb(147, 0, 255);}
+    32% {color: rgb(255, 0, 255);}
+    43% {color: rgb(255, 0, 0);}
+    54% {color: rgb(255 165 0);}
+    65% {color: rgb(255 255 0);}
+    76% {color: rgb(123, 255, 0);}
+    87% {color: rgb(0, 211, 0);}
+    98% {color: rgb(0, 211, 148);}
+    to {color: rgb(0, 123, 255);}
+}
+
+@keyframes RGB_GLOW {
+    from {box-shadow:0 0 20px rgb(0 123 255);   -webkit-box-shadow:0 0 20px rgb(0 123 255);     -moz-box-shadow: 0 0 20px rgb(0 123 255);  }
+    15%  {box-shadow:0 0 20px rgb(0 0 255);     -webkit-box-shadow:0 0 20px rgb(0 0 255);       -moz-box-shadow: 0 0 20px rgb(0 0 255);    }
+    21%  {box-shadow:0 0 20px rgb(147, 0, 255); -webkit-box-shadow:0 0 20px rgb(147, 0, 255);   -moz-box-shadow: 0 0 20px rgb(147, 0, 255);}
+    32%  {box-shadow:0 0 20px rgb(255, 0, 255); -webkit-box-shadow:0 0 20px rgb(255, 0, 255);   -moz-box-shadow: 0 0 20px rgb(255, 0, 255);}
+    43%  {box-shadow:0 0 20px rgb(255, 0, 0);   -webkit-box-shadow:0 0 20px rgb(255, 0, 0);     -moz-box-shadow: 0 0 20px rgb(255, 0, 0);  }
+    54%  {box-shadow:0 0 20px rgb(255 165 0);   -webkit-box-shadow:0 0 20px rgb(255 165 0);     -moz-box-shadow: 0 0 20px rgb(255 165 0);  }
+    65%  {box-shadow:0 0 20px rgb(255 255 0);   -webkit-box-shadow:0 0 20px rgb(255 255 0);     -moz-box-shadow: 0 0 20px rgb(255 255 0);  }
+    76%  {box-shadow:0 0 20px rgb(123, 255, 0); -webkit-box-shadow:0 0 20px rgb(123, 255, 0);   -moz-box-shadow: 0 0 20px rgb(123, 255, 0);}
+    87%  {box-shadow:0 0 20px rgb(0, 211, 0);   -webkit-box-shadow:0 0 20px rgb(0, 211, 0);     -moz-box-shadow: 0 0 20px rgb(0, 211, 0);  }
+    98%  {box-shadow:0 0 20px rgb(0, 211, 148); -webkit-box-shadow:0 0 20px rgb(0, 211, 148);   -moz-box-shadow: 0 0 20px rgb(0, 211, 148);}
+    to   {box-shadow:0 0 20px rgb(0, 123, 255); -webkit-box-shadow:0 0 20px rgb(0, 123, 255);   -moz-box-shadow: 0 0 20px rgb(0, 123, 255);}
+}
+
+.home > div h1 > span:first-child span span,
+.skills > div > div span i,
+.about .infos ul li > span > span:before,
+.facts > div > div > div h3,
+.about h2 > span:first-child,
+.testimonials .quote-container > div:before,
+.contact .boxes > div > div > i,
+.timeline ol li > div > div > h4,
+.copyright ul li a:hover,
+.testimonials .quote-container > div p span.person,
+.contact .boxes .social li a:hover,
+.copyright > div > span a,
+.mCSB_dragger_bar:after,
+header .header-inner .mail p span,
+header .header-inner .mail p a,
+.main-post .meta i {
+    animation: RGB_TEXT_C 10s cubic-bezier(0, -0.4, 1, 1.35) infinite;
+}
+
+header .header-inner .menu ul li span.active,
+header .header-inner .menu ul li span:hover,
+.fill-div{
+    color: #007bff;
+}
+
+.home .cta,
+.nav-item,
+header .header-inner .menu ul li span:before,
+.mCSB_dragger_bar:before,
+.custom-btn:before,
+.line:before,
+.nav-item:hover,
+.category,
+.clients .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.passions .single-item .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.timeline ol li > div > div > span,
+.timeline ol li:not(:last-child)::after,
+.blog-page .page-item.active .page-link,
+.blog-page .page-item .page-link:hover {
+    animation: RGB_TEXT_BG 10s cubic-bezier(0, -0.4, 1, 1.35) infinite;
+}
+
+@keyframes RGB_TEXT_TS {
+    from {text-shadow: 8px 8px rgb(0 123 255), 15px 15px rgb(243, 243, 243);}
+    15% {text-shadow: 8px 8px rgb(0 0 255), 15px 15px rgb(243, 243, 243);}
+    21% {text-shadow: 8px 8px rgb(147, 0, 255), 15px 15px rgb(243, 243, 243);}
+    32% {text-shadow: 8px 8px rgb(255, 0, 255), 15px 15px rgb(243, 243, 243);}
+    43% {text-shadow: 8px 8px rgb(255, 0, 0), 15px 15px rgb(243, 243, 243);}
+    54% {text-shadow: 8px 8px rgb(255 165 0), 15px 15px rgb(243, 243, 243);}
+    65% {text-shadow: 8px 8px rgb(255 255 0), 15px 15px rgb(243, 243, 243);}
+    76% {text-shadow: 8px 8px rgb(123, 255, 0), 15px 15px rgb(243, 243, 243);}
+    87% {text-shadow: 8px 8px rgb(0, 211, 0), 15px 15px rgb(243, 243, 243);}
+    98% {text-shadow: 8px 8px rgb(0, 211, 148), 15px 15px rgb(243, 243, 243);}
+    to {text-shadow: 8px 8px rgb(0, 123, 255), 15px 15px rgb(243, 243, 243);}
+}
+
+@keyframes RGB_TEXT_TS_dark {
+    from {text-shadow: 8px 8px rgb(0 123 255), 15px 15px #222;}
+    15% {text-shadow: 8px 8px rgb(0 0 255), 15px 15px #222;}
+    21% {text-shadow: 8px 8px rgb(147, 0, 255), 15px 15px #222;}
+    32% {text-shadow: 8px 8px rgb(255, 0, 255), 15px 15px #222;}
+    43% {text-shadow: 8px 8px rgb(255, 0, 0), 15px 15px #222;}
+    54% {text-shadow: 8px 8px rgb(255 165 0), 15px 15px #222;}
+    65% {text-shadow: 8px 8px rgb(255 255 0), 15px 15px #222;}
+    76% {text-shadow: 8px 8px rgb(123, 255, 0), 15px 15px #222;}
+    87% {text-shadow: 8px 8px rgb(0, 211, 0), 15px 15px #222;}
+    98% {text-shadow: 8px 8px rgb(0, 211, 148), 15px 15px #222;}
+    to {text-shadow: 8px 8px rgb(0, 123, 255), 15px 15px #222;}
+}
+
+.home>div>div h1 > span > span > span {
+    animation: RGB_TEXT_TS 10s cubic-bezier(0, -0.4, 1, 1.35) infinite !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .home>div>div h1 > span > span > span {
+        animation: RGB_TEXT_TS_dark 10s cubic-bezier(0, -0.4, 1, 1.35) infinite !important;
+    }
+}
