@@ -62,8 +62,11 @@
 
         var homewidth = $('.home').width() - 10;
         var aboutwidth = homewidth + $('.about').width() - 10;
-        var passionswidth = aboutwidth + $('.passions .single-item .main-content').width() + $('.passions .single-item .details').width() + 250 + 65 + 300 - 10;
+        var skillswidth = aboutwidth + $('.skills').width() - 10;
+        var resumewidth = skillswidth + $('.resume').width() - 10;
+        var passionswidth = resumewidth + $('.passions .single-item .main-content').width() + $('.passions .single-item .details').width() + 250 + 65 + 300 - 10;
         var contactwidth = passionswidth + $('.contact').width() - 10;
+
 
         /* ----------------------------------------------------------- */
 
@@ -112,7 +115,13 @@
             if (((Math.abs(parseInt($(".mCSB_container").css("left"), 10))) > homewidth) && ((Math.abs(parseInt($(".mCSB_container").css("left"), 10))) < aboutwidth)) {
                 $('.menu ul li span').removeClass('active');
                 $('#about-link').addClass('active');
-            } else if (((Math.abs(parseInt($(".mCSB_container").css("left"), 10))) > aboutwidth) && ((Math.abs(parseInt($(".mCSB_container").css("left"), 10))) < passionswidth)) {
+            } else if (((Math.abs(parseInt($(".mCSB_container").css("left"), 10))) > aboutwidth) && ((Math.abs(parseInt($(".mCSB_container").css("left"), 10))) < skillswidth)) {
+                $('.menu ul li span').removeClass('active');
+                $('#skills-link').addClass('active');
+            } else if (((Math.abs(parseInt($(".mCSB_container").css("left"), 10))) > skillswidth) && ((Math.abs(parseInt($(".mCSB_container").css("left"), 10))) < resumewidth)) {
+                $('.menu ul li span').removeClass('active');
+                $('#resume-link').addClass('active');
+            } else if (((Math.abs(parseInt($(".mCSB_container").css("left"), 10))) > resumewidth) && ((Math.abs(parseInt($(".mCSB_container").css("left"), 10))) < passionswidth)) {
                 $('.menu ul li span').removeClass('active');
                 $('#passions-link').addClass('active');
             } else if (((Math.abs(parseInt($(".mCSB_container").css("left"), 10))) > passionswidth) && ((Math.abs(parseInt($(".mCSB_container").css("left"), 10))) < contactwidth)) {
@@ -238,6 +247,18 @@
             });
         });
 
+        $('#skills-link').on('click', function () {
+            $('#wrapper').mCustomScrollbar('scrollTo', '#skills', {
+                scrollInertia: 1500
+            });
+        });
+
+        $('#resume-link').on('click', function () {
+            $('#wrapper').mCustomScrollbar('scrollTo', '#resume', {
+                scrollInertia: 1500
+            });
+        });
+
         $('#passions-link').on('click', function () {
             $('#wrapper').mCustomScrollbar('scrollTo', '#passions', {
                 scrollInertia: 1500
@@ -246,12 +267,6 @@
 
         $('#contact-link').on('click', function () {
             $('#wrapper').mCustomScrollbar('scrollTo', '#contact', {
-                scrollInertia: 1500
-            });
-        });
-
-        $('#blog-link').on('click', function () {
-            $('#wrapper').mCustomScrollbar('scrollTo', '#blog', {
                 scrollInertia: 1500
             });
         });
