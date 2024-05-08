@@ -186,7 +186,7 @@
         new AutoTyping('.autotyping', [
             'Michael',
             'a Tester',
-            'a Sanitäter',
+            'a Paramedic',
             'a Gamer'
         ], {
             typeSpeed: 50,
