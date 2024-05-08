@@ -78,7 +78,7 @@
             var animated = $(".animated-layer");
             animated.each(function () {
                 var anim = $(this);
-                var offset = $(this).offset().left;
+                var offset = $(this).offset().left - 200;
                 if ((offset < divWidth)) {
 
                     // Image Reveal Animation
