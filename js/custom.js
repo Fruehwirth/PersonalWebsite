@@ -379,7 +379,7 @@ image.addEventListener("click", function () {
     clicks += 1;
     if (clicks === 3) {
         let link = document.querySelector("link[rel='stylesheet']");
-        link.href = "css/skins/_jeb.css";
+        link.href = "css/skins/jeb.css";
         clicks = 0;
     }
 });
