@@ -1,5 +1,5 @@
 /* =================================================================== */
-/* BLUE #007bff
+/* BLUE #004a99
 ====================================================================== */
 .colored,
 .skills > div > div span i,
@@ -19,7 +19,7 @@ header .header-inner .menu ul li span:hover,
 header .header-inner .mail p span,
 header .header-inner .mail p a,
 .main-post .meta i {
-    color: #007bff;
+    color: #004a99;
 }
 .home .cta,
 .nav-item,
@@ -35,15 +35,15 @@ header .header-inner .menu ul li span:before,
 .timeline ol li:not(:last-child)::after,
 .blog-page .page-item.active .page-link,
 .blog-page .page-item .page-link:hover {
-    background-color: #007bff;
+    background-color: #004a99;
 }
 
 .home>div>div h1 > span > span > span {
-    text-shadow: 8px 8px #007bff, 15px 15px rgb(243, 243, 243);
+    text-shadow: 8px 8px #004a99, 15px 15px rgb(243, 243, 243);
 }
 
 @media (prefers-color-scheme: dark) {
     .home>div>div h1 > span > span > span {
-        text-shadow: 8px 8px #007bff, 15px 15px #222;
+        text-shadow: 8px 8px #004a99, 15px 15px #222;
     }
 }
